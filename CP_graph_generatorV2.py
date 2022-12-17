@@ -84,7 +84,7 @@ if __name__ == '__main__':
     temp = []
     algorithm = cpnet.BE()
 
-    for nodes_num in range(190, 200, 10):
+    for nodes_num in range(10, 200, 10):
         core_num = nodes_num - 10
         while(core_num > 0):
             for i in range(5000):
